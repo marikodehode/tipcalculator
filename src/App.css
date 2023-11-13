@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+label{
+  font-weight: 700;
+  font-size: 15px;
+  color: #00474b;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tipAmount{
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.tipperson{
+  color: #62969B;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.tipTotal{
+  color:#ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+h1{
+  color: #26C2AD;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c5e4e7;
+  font-family: "Space Mono", monospace;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 920px;
+  height: 482px;
+  border-radius: 26px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+.calculatorContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+
+}
+
+.inputbox{
+  background-color: #F3F8FB;
+  width: 385px;
+  height: 47px;
+  border:none;
+  border-radius: 10px;
+}
+
+.tipContainor{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  width: 385px;
+  height: 100px;
+  margin-top: 8px;
+}
+
+.tipButton {
+  background-color: #00474b;
+  width: 121px;
+  height: 48px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tipButton:hover{
+  background-color: #26C2AD;
+}
+
+.tipButton:active{
+  background-color: #26C2AD;
+}
+
+.customButton{
+  background-color: F4FBFA;
+  width: 121px;
+  height: 48px;
+  border-radius: 5px;
+  color: #00474b;
+  font-weight: bold;
+  margin:0;
+}
+
+.customButton:hover{
+  background-color: #26C2AD;
+}
+
+.customButton:active{
+  background-color: #26C2AD;
+}
+
+.tip-amount-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.tip-total-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 155px;
+}
+.resetButton{
+  background-color: #26C2AD;
+  width: 380px;
+  height: 48px;
+  font-weight: bold;
+  margin-left: 30px;
+
+}
+
+.active {
+outline: 10px solid black;
+}
+.resultContainer {
+  background-color: #00474b;
+  width: 442px;
+  height: 418px;
+  border-radius: 20px;
+}
+
+
+
+
